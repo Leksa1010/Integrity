@@ -1,5 +1,3 @@
 # Integrity - Simple bash script for checking data integrity
 
-This script allows users to record metadata of individual files or whole directories. Metadata will be stored inside `invisible` file in JSON format.
-
-Idea is to store metadata upon initialization and then check later on if any of the files has been modified.
+Integrity is a simple Bash script that helps you monitor the integrity of your files or directories over time. It works by generating and storing file metadata (including SHA-256 hashes) in a hidden JSON file, and later comparing current states with the stored data to detect any changes.
